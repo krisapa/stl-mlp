@@ -15,4 +15,4 @@ make run
 
 The network with cross-validation performs well on the dataset:
 
-![Example output](output_example.PNG)
+![output_example](https://github.com/user-attachments/assets/57834139-622f-4fdf-8f19-c185c4100f3f)
