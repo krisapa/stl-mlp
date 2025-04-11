@@ -13,6 +13,6 @@ make run
 
 ### Result
 
-The network with cross-validation performs well on the dataset:
+The network performs pretty well on the dataset provided in the repository. With cross-validation, we are able to achieve a accuracy of more than 95%:
 
 ![output_example](https://github.com/user-attachments/assets/57834139-622f-4fdf-8f19-c185c4100f3f)
