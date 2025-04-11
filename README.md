@@ -13,6 +13,7 @@ make run
 
 ### Result
 
-The network performs pretty well on the dataset provided in the repository. With cross-validation, we are able to achieve a accuracy of more than 95%:
+The network performs pretty well. On the dataset provided in the repository it reaches an accuracy of 94%!
+The following example uses 8 neurons in the first layer, 600 epochs, and a learning rate of 0.2
 
-![output_example](https://github.com/user-attachments/assets/57834139-622f-4fdf-8f19-c185c4100f3f)
+![output example](https://github.com/user-attachments/assets/3bc06db7-b930-4bd6-81e1-fed768de4292)

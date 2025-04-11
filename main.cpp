@@ -46,9 +46,9 @@ int main(int argc, char *argv[]) {
     }
 
     int n_folds = 5;        // fold count
-    float l_rate = 0.3f;    // learning rate
-    int n_epoch = 500;        // epochs
-    int n_hidden = 5;        // number of neurons in first layer
+    float l_rate = 0.2f;    // learning rate
+    int n_epoch = 600;        // epochs
+    int n_hidden = 8;        // number of neurons in first layer
 
 //	test the network
     std::vector<float> scores = evaluate_network(csv_data, n_folds, l_rate, n_epoch, n_hidden);
