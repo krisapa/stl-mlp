@@ -9,9 +9,9 @@ make run
 ```
 By default, make run trains on the UCI seeds dataset in this repo. Tweak hyperparams in `main.cpp`.
 
-## What’s here
-- Fully-connected MLP, forward + backprop written by hand
-- Only using the C++ STL: `std::vector`, `std::map`, `std::regex` (for CSV ingest), `<cmath>`, `<random>`, etc. No third-party dependencies like Eigen or BLAS.
+## What it has
+- Fully connected MLP and forward and backprop written by hand
+- Only using the C++ STL: `std::vector`, `std::map`, `std::regex` (for CSV ingest), `<cmath>`, `<random>`, etc. No third-party dependencies like Eigen or BLAS
 - Simple SGD training loop
 
 ## Result
