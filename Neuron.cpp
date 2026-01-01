@@ -1,7 +1,7 @@
 //
 // Created by Krish Patel on 4/03/25.
 //
-#include "Neuron.h"
+#include "Neuron.hpp"
 #include <cstdlib>
 #include <cmath>
 #include <ctime>

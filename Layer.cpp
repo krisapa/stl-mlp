@@ -1,7 +1,7 @@
 //
 // Created by Krish Patel on 4/05/25.
 //
-#include "Layer.h"
+#include "Layer.hpp"
 
 Layer::Layer(int n_neurons, int n_weights) {
     initNeurons(n_neurons, n_weights);

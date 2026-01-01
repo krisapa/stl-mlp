@@ -11,7 +11,7 @@
 #include <map>
 #include <numeric>
 #include <cmath>
-#include "NeuralNetwork.h"
+#include "NeuralNetwork.hpp"
 
 std::vector<std::vector<float>> load_csv_data(std::string filename);
 

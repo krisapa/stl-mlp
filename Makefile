@@ -6,13 +6,13 @@ main: main.o NeuralNetwork.o Layer.o Neuron.o
 main.o: main.cpp
 	c++ -c main.cpp
 
-NeuralNetwork.o: NeuralNetwork.cpp NeuralNetwork.h Layer.h
+NeuralNetwork.o: NeuralNetwork.cpp NeuralNetwork.hpp Layer.hpp
 	c++ -c NeuralNetwork.cpp
 
-Layer.o: Layer.cpp Layer.h Neuron.h
+Layer.o: Layer.cpp Layer.hpp Neuron.hpp
 	c++ -c Layer.cpp
 
-Neuron.o: Neuron.cpp Neuron.h
+Neuron.o: Neuron.cpp Neuron.hpp
 	c++ -c Neuron.cpp
 
 clean:

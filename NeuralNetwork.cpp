@@ -1,11 +1,11 @@
-#include "NeuralNetwork.h"
+#include "NeuralNetwork.hpp"
 #include <iostream>
 #include <cstdlib>
 #include <cmath>
 #include <ctime>
 #include <algorithm>
 
-#include "Layer.h"
+#include "Layer.hpp"
 
 Network::Network() {
     std::srand(static_cast<unsigned int>(std::time(nullptr)));

@@ -5,7 +5,7 @@
 #pragma once
 
 #include <vector>
-#include "Neuron.h"
+#include "Neuron.hpp"
 
 class Layer {
 public:
