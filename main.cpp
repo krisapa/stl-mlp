@@ -31,7 +31,7 @@ int main(int argc, char *argv[]) {
     std::cout << "Neural Network with Backpropagation in C++ from scratch" << std::endl;
 
     std::vector<std::vector<float>> csv_data;
-    csv_data = load_csv_data("dataset.csv");
+    csv_data = load_csv_data("data/seeds-dataset.csv");
 
 //	Normalize last col for one-hot encoding
     std::map<int, int> lookup = {};
